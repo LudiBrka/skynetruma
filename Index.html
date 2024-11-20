@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodavnica Računara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: yellow;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #444;
+        }
+        .navbar a {
+            color: yellow;
+        }
+        .banner {
+            background-color: #222;
+            color: yellow;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .offer img {
+            max-width: 100%;
+            height: auto;
+        }
+        .side-banner {
+            background-color: #333;
+            color: yellow;
+            text-align: center;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Gornji meni -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Skynet PC Shop Ruma</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#o-nama">O nama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ponude">Ponude</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Banner reklama sa strane -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="side-banner">
+                <img src="images/reklama.png" class="img-thumbnail">
+            </div>
+        </div>
+
+        <!-- Sadržaj sajta -->
+        <div class="col-md-10">
+            <!-- Glavni banner -->
+            <div class="banner">
+                <h1>Dobro nam dosli u Skynet Pc Shop, samo najjaci racunari.</h1>
+            </div>
+
+            <!-- O nama sekcija -->
+            <section id="o-nama">
+                <h2>O nama</h2>
+                <p>Mi smo "profesionalni" pc builder tim iz Opstine Ruma koji ce se pobrinuti da imate sto bolji user experience sa nasi kompjutori! Slobodno razgledajte dok imate u glavu da kupujete na najsigurnijem mestu na svetu, ima budete 1000% zadovoljni sa nasi kompjutori!</p>
+            </section>
+
+            <hr>
+
+            <!-- Ponude sekcija -->
+            <section id="ponude">
+                <h2>Nase ponude</h2>
+                <div class="row">
+                    <div class="col-md-4 offer">
+                        <img src="images/Racunar1.png" class="img-thumbnail" style="width: 180px; height: 180px;">
+                        <h3>Pouzdana zver za Decu</h3>
+                        <p>Specs:</p>
+                        <p>Amd Phenom x3 8350 @2.1Ghz</p>
+                        <p>4Gb DDR3 RAM @800Mhz x1</p>
+                        <p>Rx550 4GB GDDR5</p>
+                        <button class="btn btn-warning">799.99$</button>
+                    </div>
+                    <div class="col-md-4 offer">
+                        <img src="images/Racunar2.webp" class="img-thumbnail" style="width: 180px; height: 180px;">
+                        <h3>Profesionalni pc za Rad</h3>
+                        <p>Specs:</p>
+                        <p>2xG5 @2.5Ghz</p>
+                        <p>1Gb DDR2 SDRAM @533Mhz x1</p>
+                        <p>GeForce 6600 Profesionalna 256mb DDR2</p>
+                        <button class="btn btn-warning">1699.99$</button>
+                    </div>
+                    <div class="col-md-4 offer">
+                        <img src="images/Racunar3.webp" class="img-thumbnail" style="width: 180px; height: 180px;">
+                        <h3>Retro Pentium 4</h3>
+                        <p>Specs:</p>
+                        <p>Amd Sempron 2500+ @2.1Ghz OC</p>
+                        <p>1Gb DDR2 SDRAM @533Mhz x3 DC</p>
+                        <p>ATi Rx1600 XT 256mb GDDR3</p>
+                        <button class="btn btn-warning">999.99$</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- Ponude sekcija 2 -->
+<section id="ponude2">
+  <h2 style="margin-left: 250px; margin-top: 50px;">Nase ostale ponude</h2>
+  <div class="row" style="margin-left: 250px;">
+      <div class="col-md-4 offer">
+          <img src="images/sata8pin.png" class="img-thumbnail" style="width: 180px; height: 180px;">
+          <h3>Jedan sata na 4 8pin</h3>
+          <p>Multiligualni super speed power one sata na 4 osam pin multialoy driver booster kabel adaptor.</p>
+          <button class="btn btn-warning">19.99$</button>
+      </div>
+      <div class="col-md-4 offer">
+        <img src="images/cigara.jpg" class="img-thumbnail" style="width: 180px; height: 180px;">
+        <h3>Marlboro cigarete pack</h3>
+        <p>Specs:</p>
+        <p>Cigarete</p>
+        <p>Dobra kvaliteta</p>
+        <p>Trajanje 0.5-10 dana</p>
+        <button class="btn btn-warning">9.99$</button>
+      </div>
+      <div class="col-md-4 offer">
+          <img src="images/iphone6.jpg" class="img-thumbnail" style="width: 180px; height: 180px;">
+          <h3>iPhone 6 16GB</h3>
+          <p>Specs:</p>
+          <p>1GB RAM</p>
+          <p>16GB ROM</p>
+          <p>Stanje: Eco Friendly (smece)</p>
+          <button class="btn btn-warning">Dodji u prodavnicu pa pitaj za cenu</button>
+      </div>
+  </div>
+</section>
+</div>
+</div>
+</div>
+<div>
+  <hr style="border: 1px solid yellow(128, 128, 128); width: 100%; height: 5px; margin: 20px 0;">
+</div>
+
+<!--Credits il sta vec-->
+<section id="credits">
+  <div class="col text-center p-5">
+    <p>Sve primedbe mozete staviti vasoj majci u pasulj.</p>
+    <p>Tel: 069 1337420</p>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
